@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "olivern",
+  "version": "${version}",
+  "name": "Olivern",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MPL-2.0",
+  "icon": "assets/olivern/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.rickroll.olivern.client.OlivernDataGenerator"
+    ],
+    "client": [
+      "org.rickroll.olivern.client.OlivernClient"
+    ],
+    "main": [
+      "org.rickroll.olivern.Olivern"
+    ]
+  },
+  "mixins": [
+    "olivern.mixins.json",
+    {
+      "config": "olivern.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
