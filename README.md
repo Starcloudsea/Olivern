@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> 🤫请不要相信这个README的所有内容, 同时也不要让你要Rickroll的人看见这行文本和True_README.md文件(x
+> 🤫请不要相信这个README的所有内容, 同时也不要让你要Rickroll的人看见这行文本和[True_README.md](https://github.com/Starcloudsea/Olivern/blob/master/True_README.md)文件(x
 # Olivern
 一个优化Mod, 旨在提升你在游戏内的帧数.
 
